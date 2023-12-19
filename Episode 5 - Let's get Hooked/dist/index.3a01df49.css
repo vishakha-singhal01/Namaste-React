@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: azure;
+}
+
+.header {
+  color: #000;
+  background-color: #fff;
+  border-radius: 5px;
+  justify-content: space-between;
+  width: auto;
+  margin: 10px;
+  font-weight: bold;
+  display: flex;
+  box-shadow: -1px 4px 20px 14px #e2717133;
+}
+
+.logo {
+  width: 100px;
+  padding-left: 10px;
+}
+
+.nav-items {
+  width: auto;
+  padding: 0 10px;
+}
+
+.nav-items > ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items ul li {
+  cursor: pointer;
+  margin: 25px;
+  padding: 10px;
+  font-size: large;
+}
+
+.nav-items ul li:hover {
+  color: #fff;
+  background: #e9c41f;
+  border-radius: 10px;
+  box-shadow: 0 1px 15px #0000001a, 0 6px 6px #0000001a;
+}
+
+.search-container {
+  text-align: center;
+  max-width: 100%;
+  margin: 20px auto;
+  position: relative;
+}
+
+.search-container .search-input {
+  box-sizing: border-box;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #aabcca;
+  border-right: 0;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  outline: none;
+  width: 40%;
+  padding: 14px 15px 14px 20px;
+  box-shadow: 1px 2px 4px #00000014;
+}
+
+.search-container .search-btn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #0768b3;
+  border: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  outline: none;
+  margin-left: -4px;
+  padding: 15px 22px;
+  box-shadow: 1px 2px 4px #00000014;
+}
+
+.search-container .search-btn:hover {
+  background-color: #e9c41f;
+}
+
+.restaurant-list {
+  flex-wrap: wrap;
+  justify-content: center;
+  width: auto;
+  display: flex;
+}
+
+.card {
+  cursor: pointer;
+  border-radius: 5px;
+  width: 200px;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: -1px 4px 20px 14px #e2717133;
+}
+
+.card > h2 {
+  text-align: center;
+  font-size: medium;
+}
+
+.card > img {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.card > h4 {
+  text-align: center;
+}
+
+.card > span {
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.card > span > h4 {
+  text-align: center;
+}
+
+.card > span > h4:first-child {
+  color: #fff;
+  background-color: #13b001;
+  border-radius: 5px;
+  align-items: center;
+  padding: 0 5px;
+  display: flex;
+}
+
+.card > span > h4:first-child .fa-star {
+  padding: 0 5px 3px 0;
+  font-size: small;
+}
+
+.footer {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 5px;
+  width: auto;
+  margin: 10px;
+  padding: 20px 10px;
+  box-shadow: -1px 4px 20px 14px #e2717133;
+}
+
+.footer > i {
+  padding: 0 5px;
+  font-size: smaller;
+}
+
+.fa-heart {
+  color: #8b0000;
+}
+
+.footer > strong {
+  padding-left: 5px;
+}
+
+.footer > strong > span {
+  color: #0f4901;
+}
+
+.aboutContent {
+  margin-left: 50px;
+  padding-top: 200px;
+  font-size: x-large;
+}
+
+.aboutContent h1 mark {
+  background-color: azure;
+}
+
+.aboutContent h3 mark {
+  background-color: #faebd7;
+}
+
+.about {
+  background-image: url("https://hips.hearstapps.com/hmg-prod/images/is-pizza-healthy-1671729626.jpg");
+  background-position: center;
+  background-size: contain;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */
